@@ -101,7 +101,7 @@ class LocationScreen extends StatelessWidget{
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.purpleAccent),
                   child: Text('Confirm Location',style: buttons2(),),
                 onPressed: (){
-
+                       Navigator.pushNamed(context, '/home');
                 },
                 ),
               )
